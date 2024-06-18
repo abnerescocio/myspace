@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myspace/ui/widgets/list_workplace_widget.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -27,6 +28,7 @@ class _HomePageState extends State<HomePage> {
             _profileTitle(),
             _profileSubtitle(),
             _profilePhoto(),
+            const ListWorkplaceWidget(),
           ],
         ),
       ),
